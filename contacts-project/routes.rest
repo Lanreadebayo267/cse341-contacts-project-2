@@ -1,0 +1,23 @@
+### GET all contacts
+GET http://localhost:3000/contacts
+
+### GET single contact
+GET http://localhost:3000/contacts/6a08493e4f5296878d6949f9
+
+### Create contact
+POST http://localhost:3000/contacts
+
+### Update contact
+PUT http://localhost:3000/contacts/6a08493e4f5296878d6949f9
+
+### Delete contact
+DELETE http://localhost:3000/contacts/6a0849774f5296878d694a01
+Content-Type: application/json
+
+{
+  "firstName": "Lanre",
+  "lastName": "Adebayo Updated",
+  "email": "laanreadebayo@gmail.com",
+  "favoriteColor": "Blue",
+  "birthday": "2007-12-02"
+}
