@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000"
+      "url": "https://contacts-project-2-api.onrender.com"
     }
   ],
   "paths": {
